@@ -16,9 +16,10 @@ struct ContentView: View {
         NavigationView {
             
             Button("Show Modal update ") {
+                
                 self.isPresented = true
             }
-            .foregroundColor(.red)
+            .foregroundColor(.blue)
             .sheet(isPresented: $isPresented) {
                 ModalView()
             }
