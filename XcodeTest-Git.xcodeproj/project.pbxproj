@@ -11,6 +11,7 @@
 		481FCE9229ADF4B90085E97D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481FCE9129ADF4B90085E97D /* ContentView.swift */; };
 		481FCE9429ADF4BA0085E97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481FCE9329ADF4BA0085E97D /* Assets.xcassets */; };
 		481FCE9729ADF4BA0085E97D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481FCE9629ADF4BA0085E97D /* Preview Assets.xcassets */; };
+		481FCE9F29ADF8B70085E97D /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481FCE9E29ADF8B70085E97D /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		481FCE9329ADF4BA0085E97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		481FCE9629ADF4BA0085E97D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		481FCE9D29ADF4E70085E97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		481FCE9E29ADF8B70085E97D /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				481FCE9D29ADF4E70085E97D /* Info.plist */,
 				481FCE8F29ADF4B90085E97D /* XcodeTest_GitApp.swift */,
 				481FCE9129ADF4B90085E97D /* ContentView.swift */,
+				481FCE9E29ADF8B70085E97D /* ModalView.swift */,
 				481FCE9329ADF4BA0085E97D /* Assets.xcassets */,
 				481FCE9529ADF4BA0085E97D /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481FCE9F29ADF8B70085E97D /* ModalView.swift in Sources */,
 				481FCE9229ADF4B90085E97D /* ContentView.swift in Sources */,
 				481FCE9029ADF4B90085E97D /* XcodeTest_GitApp.swift in Sources */,
 			);
