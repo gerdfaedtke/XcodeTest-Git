@@ -15,7 +15,7 @@ struct ContentView: View {
         
         NavigationView {
             
-            Button("Show Modal") {
+            Button("Show Modal update ") {
                 self.isPresented = true
             }
             .foregroundColor(.red)
